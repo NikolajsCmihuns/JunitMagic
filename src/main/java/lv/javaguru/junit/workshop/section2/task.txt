@@ -1,0 +1,6 @@
+Write tests for next algorithms using JUnit framework:
+
+TaxCalculator
+SequentialSearch
+BinarySearch
+BubbleSort

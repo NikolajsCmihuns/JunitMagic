@@ -1,0 +1,4 @@
+NumberOverturn class contains number overturn algorithm.
+This algorithm overturn number (example: 1002 -> 2001).
+Write tests for NumberOverturn class.
+If needed refactor NumberOverturn class.

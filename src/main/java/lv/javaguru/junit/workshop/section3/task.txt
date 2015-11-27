@@ -1,0 +1,7 @@
+Write tests for two domains:
+1) Database:
+        DatabaseFacadeImpl
+2) Validation:
+        EmptyRule
+        PasswordRule
+        UserPolicy
