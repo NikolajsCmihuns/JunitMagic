@@ -10,3 +10,4 @@ TaxCalculator rules:
 Write tests first!
 Tests should drive implementation!
 Use Test Driven Development (TDD) approach!
+After all refactor your production code and tests!
