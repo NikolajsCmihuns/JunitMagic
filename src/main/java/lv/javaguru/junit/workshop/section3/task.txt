@@ -5,3 +5,5 @@ Write tests for two domains:
         EmptyRule
         PasswordRule
         UserPolicy
+
+Use Mockito to mock all dependencies of class under test.
