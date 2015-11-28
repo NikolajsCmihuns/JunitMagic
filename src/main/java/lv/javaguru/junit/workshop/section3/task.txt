@@ -1,7 +1,15 @@
-Write tests for two domains:
-1) Database:
+Write tests for three domains:
+
+1) TaxCalculator
+        Implement following rules:
+        // Rule 1: if current year < 2010 then tax = 18%
+        // Rule 2: if current year = 2010 then tax = 22%
+        // Rule 3: if current year > 2010 then tax = 21%
+
+2) Database:
         DatabaseFacadeImpl
-2) Validation:
+
+3) Validation:
         EmptyRule
         PasswordRule
         UserPolicy
