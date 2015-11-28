@@ -1,6 +1,12 @@
-Write tests for next algorithms using JUnit framework:
+Write tests and implementation code
+for TaxCalculator using JUnit framework.
 
-TaxCalculator
-SequentialSearch
-BinarySearch
-BubbleSort
+TaxCalculator rules:
+
+1) Income up to 20000 is taxed at 25%
+2) Income of more than 20000 is taxed at 40%
+3) Income of more than 50000 is taxed at 50%
+
+Write tests first!
+Tests should drive implementation!
+Use Test Driven Development (TDD) approach!
