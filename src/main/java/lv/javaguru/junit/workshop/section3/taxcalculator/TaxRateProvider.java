@@ -1,7 +1,7 @@
 package lv.javaguru.junit.workshop.section3.taxcalculator;
 
-public interface CurrentYearProvider {
+public interface TaxRateProvider {
 
-    int getYear();
+    double getTaxRate();
 
 }
