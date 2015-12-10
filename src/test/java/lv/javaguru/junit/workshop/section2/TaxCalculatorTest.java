@@ -23,6 +23,7 @@ public class TaxCalculatorTest {
     @Test
     public void whenIncomeEqual10000() {
         checkTax(10000.0, 2500.0);
+
     }
 
     @Test
