@@ -3,3 +3,10 @@ Implement Login Service functionality using:
  1) TDD
  2) BDD
 
+Additional task: implement login service statistics.
+Store information about each login attempt (failed/successful).
+This information is needed for security department.
+
+Try to design solution first, try different architecture
+models. Think about solution testability. Provide possibility
+to implement acceptance tests for solution.
