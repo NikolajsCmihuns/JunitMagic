@@ -3,6 +3,7 @@ package lv.javaguru.junit.workshop.section1;
 public class ArraySorting {
 
     public static void sortArray(int[] arr) {
+        if(arr.length < 1) throw new IllegalArgumentException("array is empty");
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i; j < arr.length; j++) {
                 if (arr[i] > arr[j]) {

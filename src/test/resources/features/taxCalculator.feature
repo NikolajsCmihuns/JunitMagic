@@ -12,3 +12,6 @@ Feature: Tax Calculator BDD example
         When income equal 20000
         Then tax should be equal 5000
 
+    Scenario: Income more than 20000
+        When income equal 25000
+        Then tax should be equal 6250

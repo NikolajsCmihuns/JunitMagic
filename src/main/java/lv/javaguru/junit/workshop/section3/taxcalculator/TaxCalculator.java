@@ -9,9 +9,9 @@ public class TaxCalculator {
         this.taxRateProvider = taxRateProvider;
     }
 
-    public double calculateTax(double income) {
+    public double calculateTax(double income, int year) {
         // Provide implementation after writing tests!
-        double taxRate = taxRateProvider.getTaxRate();
+        double taxRate = taxRateProvider.getTaxRate(year);
         return income * taxRate;
     }
 
